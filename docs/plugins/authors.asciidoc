@@ -33,7 +33,7 @@ All plugins, be they site or Java plugins, must contain a file called
 `plugin-descriptor.properties` in the root directory. The format for this file
 is described in detail  here:
 
-https://github.com/elastic/elasticsearch/blob/master/dev-tools/src/main/resources/plugin-metadata/plugin-descriptor.properties[`dev-tools/src/main/resources/plugin-metadata/plugin-descriptor.properties`].
+https://github.com/elastic/elasticsearch/blob/master/buildSrc/src/main/resources/plugin-descriptor.properties[`buildSrc/src/main/resources/plugin-descriptor.properties`].
 
 Either fill in this template yourself (see
 https://github.com/lmenezes/elasticsearch-kopf/blob/master/plugin-descriptor.properties[elasticsearch-kopf]
